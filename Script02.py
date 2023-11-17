@@ -14,9 +14,9 @@ def resize_images(input_folder, output_folder, target_size):
                 print(f"Resized {filename} successfully.")
 
 
-input_folder_path = "D:\PythonProject\YOLO\yolo5\img\dataimg"
-output_folder_path = "D:\PythonProject\YOLO\yolo5\img\JPEGImages"
-target_size = (864, 640)
+input_folder_path = r""  # 目标路径
+output_folder_path = r""  # 存放路径
+target_size = (w, h)    # 目标改变的shape
 
 if not os.path.exists(output_folder_path):
     os.makedirs(output_folder_path)
