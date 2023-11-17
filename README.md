@@ -42,3 +42,12 @@ savedata
   
         -> reshaped_img 864x640
   
+# [Script03.py](https://github.com/Auorui/Script-Home-Applied-in-Deep-Learning-Projects/blob/main/Script03.py) : 修改图片后缀并存放在指定的文件路径
+* 用法：主要是将训练过程中不符合网络要求的图像进行reshape。
+  
+    Example：
+  
+        - originalimg.png
+  
+        -> reshaped.jpg
+  
